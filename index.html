@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browny's website</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e0a97f2e75.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- 網頁首 -->
+  <header>
+    <!--  導覽列  -->
+    <div class="nav-header">
+      <nav id="desktop-nav">
+        <div class="nav-link">
+          <a href="#about" class="nav-link-item">ABOUT</a>
+          <a href="#portfolios" class="nav-link-item">PORTFOLIO</a>
+          <a href="#experience" class="nav-link-item">EXPERIENCE</a>
+          <a href="#contact" class="nav-link-item">CONTACT</a>
+        </div>
+      </nav>
+      <nav id="phone-nav">
+        <div class="nav-icon">
+          <button type="button"><i class="fas fa-bars"></i></button>
+        </div>
+        <div id="phone-nav-link" class="nav-link">
+          <a href="#about" class="nav-link-item">ABOUT</a>
+          <a href="#portfolios" class="nav-link-item">PORTFOLIO</a>
+          <a href="#experience" class="nav-link-item">EXPERIENCE</a>
+          <a href="#contact" class="nav-link-item">CONTACT</a>
+        </div>
+      </nav>
+    </div>
+    <!--  上方圖片  -->
+    <div class="entry-header">
+      <div class="opacity-box"></div>
+      <!-- <div class="figcaption-border"></div> -->
+      <div class="figcaption">
+        <div class="figcaption-inner">
+          <h1>I'm Browny</h1>
+          <p>To catch the first hope of the day, <br>you need to conquer the ups and downs of the mountain road.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 網站主內容 -->
+  <main>
+    <section id="about" class="about-me">
+      <h2 class="section-title">ABOUT</h2>
+      <div class="personal-info">
+        <div class="avatar">
+          <img src="./images/S__31293447.jpg" alt="">
+        </div>
+        <div class="personal-description">
+          <h3>林于庭 / Browny Lin</h3>
+          <p>
+            出生於1994年，台南人，喜歡潛水、登山、露營等戶外活動，並關心自然保育與生態。工作時主動積極，面對新事物充滿好奇，遭遇困難會設法解決，並從中獲得成就感，秉持團隊合作精神，與夥伴互相幫助與交流。熱衷於學習新知，因此在前份工作接觸到生態資料庫平台，就對軟體工程產生興趣，期望能透過資訊科技延續自己對生態保育的熱愛。
+          </p>
+        </div>
+      </div>
+      <h2 class="section-title">SKILLS</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3 class="skill-name">Web Layout</h3>
+          <ul class="skill-description">
+            <li class="list-item"><span>-</span><span>熟悉 HTML5 / CSS3</span></li>
+            <li class="list-item"><span>-</span><span>RWD 響應式網站開發</span></li>
+            <li class="list-item"><span>-</span><span>使用 Bootstrap4、5 開發專案</span></li>
+            <li class="list-item"><span>-</span><span>使用 SCSS 管理 CSS 架構</span></li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3 class="skill-name">JavaScript / Vue.js</h3>
+          <ul class="skill-description">
+            <li class="list-item"><span>-</span><span>熟悉 ES6 語法</span></li>
+            <li class="list-item"><span>-</span><span>使用 AJAX 串接第三方 API</span></li>
+            <li class="list-item"><span>-</span><span>使用 Webpack 打包工具</span></li>
+            <li class="list-item"><span>-</span><span>使用 Vue cli 建立 SPA 專案</span></li>
+            <li class="list-item"><span>-</span><span>使用 Vue Router 管理路由</span></li>
+            <li class="list-item"><span>-</span><span>使用 components 管理元件</span></li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3 class="skill-name">Back-end / Others</h3>
+          <ul class="skill-description">
+            <li class="list-item"><span>-</span><span>熟悉 Git / GitHub 指令</span></li>
+            <li class="list-item"><span>-</span><span>使用 Heroku / GitHub Page 部署網站</span></li>
+            <li class="list-item"><span>-</span><span>使用 Node.js / Express 建立簡易專案</span></li>
+            <li class="list-item"><span>-</span><span>使用 Node.js 串接 MongoDB / MySQL</span></li>
+            <li class="list-item"><span>-</span><span>撰寫 RESTful API 、 Postman 測試</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="portfolios" class="portfolios">
+      <h2 class="section-title">PORTFOLIO</h2>
+      <div class="portfolio">
+        <a href="https://yuting0909.github.io/hello-bus/#/" target="_blank" class="portfolio-link">
+          <img src="./images//yuting0909.github.io_hello-bus_.png" alt="">
+        </a>
+        <div class="portfolio-information">
+          <h3 class="portfolio-name">Hello, Bus! 全台公車動態時刻查詢網
+            <a href="https://yuting0909.github.io/hello-bus/#/" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://github.com/yuting0909/hello-bus" target="_blank"><i class="fab fa-github"></i></a>
+          </h3>
+          <ul class="portfolio-description">
+            <li class="list-item"><span>-</span><span>第三屆 The F2E 參賽作品，串接交通部公車 API，建立全台公車動態時刻查詢應用服務</span></li>
+            <li class="list-item"><span>-</span><span>使用 Vue.js / Vue cli 架設，Vue-Router 管理路由，並引入 Vue-Axios套件</span></li>
+            <li class="list-item"><span>-</span><span>採用設計師版型，引入 Bootstrap5，使用 SCSS 客製樣式並製作 RWD 響應式網頁</span>
+            </li>
+            <li class="list-item"><span>-</span><span>使用 ESLint (Standard) 管控程式撰寫風格</span></li>
+            <li class="list-item"><span>-</span><span>引入 Leaflet.js，開發地圖應用(個人座標定位、繪製公車路線圖等)</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="portfolio">
+        <a href="https://yuting0909.github.io/taiwan-travel-guide/#/" target="_blank" class="portfolio-link">
+          <img src="./images/yuting0909.github.io_taiwan-travel-guide_.png" alt="">
+        </a>
+        <div class="portfolio-information">
+          <h3 class="portfolio-name">台灣走走 Tai Walk
+            <a href="https://yuting0909.github.io/taiwan-travel-guide/#/" target="_blank"><i
+                class="fas fa-globe"></i></a>
+            <a href="https://github.com/yuting0909/taiwan-travel-guide" target="_blank"><i
+                class="fab fa-github"></i></a>
+          </h3>
+          <ul class="portfolio-description">
+            <li class="list-item"><span>-</span><span>第三屆 The F2E 參賽作品，串接交通部觀光 API，製作台灣景點導覽網站</span></li>
+            <li class="list-item"><span>-</span><span>使用 Vue.js / Vue cli 架設，Vue-Router 管理路由，並引入 Vue-Axios、V-Calendar
+                等套件</span></li>
+            <li class="list-item"><span>-</span><span>採用設計師版型，引入 Bootstrap5，使用 SCSS 客製樣式並製作 RWD 響應式網頁</span>
+            </li>
+            <li class="list-item"><span>-</span><span>使用 ESLint (Standard) 管控程式撰寫風格</span></li>
+            <li class="list-item"><span>-</span><span>使用 Google Map API 在網頁中呈現地圖</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="portfolio">
+        <a href="https://yuting0909.github.io/icamping/#/" target="_blank" class="portfolio-link">
+          <img src="./images//yuting0909.github.io_icamping_.png" alt="">
+        </a>
+        <div class="portfolio-information">
+          <h3 class="portfolio-name">icamping
+            <a href="https://yuting0909.github.io/icamping/#/" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://github.com/yuting0909/icamping" target="_blank"><i class="fab fa-github"></i></a>
+          </h3>
+          <ul class="portfolio-description">
+            <li class="list-item"><span>-</span><span>串接六角學院提供的 API
+                架設露營電商網站。使用者可以瀏覽營區資訊，篩選、蒐藏並加入購物車，後台管理者則能新增、編輯、刪除營區，並管理訂單及優惠券資訊</span></li>
+            <li class="list-item"><span>-</span><span>使用 Vue.js / Vue cli 架設，Vue-Router 管理路由，並引入
+                VeeValidate、Vue-Axios、Swiper 等套件</span></li>
+            <li class="list-item"><span>-</span><span>引入 Bootstrap5，使用 SCSS 客製樣式並製作 RWD 響應式網頁</span></li>
+            <li class="list-item"><span>-</span><span>使用 ESLint (Standard) 管控程式撰寫風格</span></li>
+            <li class="list-item"><span>-</span><span>使用 ES6 Promise 語法，管理多個 API 請求的執行順序</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="portfolio">
+        <a href="https://fierce-falls-56796.herokuapp.com/map" target="_blank" class="portfolio-link">
+          <img src="./images/fierce-falls-56796.herokuapp.com_map.png" alt="">
+        </a>
+        <div class="portfolio-information">
+          <h3 class="portfolio-name">鯨視 | 鯨豚生態視覺化平台
+            <a href="https://fierce-falls-56796.herokuapp.com/map" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://github.com/yuting0909/CetaMap" target="_blank"><i class="fab fa-github"></i></a>
+          </h3>
+          <ul class="portfolio-description">
+            <li class="list-item"><span>-</span><span>使用特有生物研究保育中心提供的開放資料 (JSON)，打造鯨豚生態視覺化平台</span></li>
+            <li class="list-item"><span>-</span><span>後端：Node.js / Express，使用 MVC 架構開發</span></li>
+            <li class="list-item"><span>-</span><span>前端：connect-flash、express-handlebars、Bootstrap5</span></li>
+            <li class="list-item"><span>-</span><span>資料庫：MySQL，透過 Sequelize 語法操作資料庫</span></li>
+            <li class="list-item"><span>-</span><span>透過 Passport.js、express-session 實作登入驗證功能</span></li>
+            <li class="list-item"><span>-</span><span>使用 Webpack 打包、模組化前端相關檔案</span></li>
+            <li class="list-item"><span>-</span><span>使用第三方地圖套件 Leaflet.js 開發地理資訊平台</span></li>
+            <li class="list-item"><span>-</span><span>重新梳理外部資料的格式，以 D3.js 進行資料視覺化</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="portfolio">
+        <a href="https://thawing-ocean-54443.herokuapp.com/signin" target="_blank" class="portfolio-link">
+          <img src="./images/thawing-ocean-54443.herokuapp.com_restaurants.png" alt="">
+        </a>
+        <div class="portfolio-information">
+          <h3 class="portfolio-name">餐廳論壇
+            <a href="https://thawing-ocean-54443.herokuapp.com/signin" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://github.com/yuting0909/restaurant-forum" target="_blank"><i class="fab fa-github"></i></a>
+          </h3>
+          <ul class="portfolio-description">
+            <li class="list-item"><span>-</span>建立前後台資料 CRUD 操作功能<span></span></li>
+            <li class="list-item"><span>-</span><span>後端：Node.js / Express 建立 RESTful API，使用 MVC 架構開發</span></li>
+            <li class="list-item"><span>-</span><span>前端：connect-flash、express-handlebars、Bootstrap5</span></li>
+            <li class="list-item"><span>-</span><span>資料庫：MySQL，透過 Sequelize 語法操作資料庫</span></li>
+            <li class="list-item"><span>-</span><span>透過 Passport.js、express-session 實作登入驗證功能</span></li>
+            <li class="list-item"><span>-</span><span>額外設計前後端分離的 Web API 與 JWT 認證機制，並使用 Postman 測試 API</span></li>
+            <li class="list-item"><span>-</span><span>透過 Multer 實作上傳圖片功能</span></li>
+            <li class="list-item"><span>-</span><span>利用 faker.js 產生測試用資料</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="experience">
+      <h2 class="section-title">EXPERIENCE</h2>
+      <div class="experience-container">
+        <div class="experience-item">
+          <div class="duration">
+            <p>Jan. 2019 - Dec. 2020</p>
+          </div>
+          <div class="experience-information">
+            <h3 class="job-title">研究員 | 研海生態顧問股份有限公司</h3>
+            <div class="experience-description">
+              <p class="list-item"><span>-</span>鯨豚海上目視調查、照片拍攝、鯨豚行為紀錄<span></span></p>
+              <p class="list-item"><span>-</span>數據蒐集與整理、統計分析、圖表視覺化<span></span></p>
+              <p class="list-item"><span>-</span>文獻整理、報告撰寫<span></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="duration">
+            <p>Sep. 2013 - Jan. 2018</p>
+          </div>
+          <div class="experience-information">
+            <h3 class="job-title">國立中山大學 National Sun Yat-sen University</h3>
+            <div class="experience-description">
+              <p class="list-item"><span>-</span>海洋科學系碩士<span></span></p>
+              <p class="list-item"><span>-</span>生物科學系學士<span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2 class="section-title">CONTACT</h2>
+      <div class="social-media-container">
+        <div class="social-media">
+          <a class="social-media-link" href="mailto:kyul4852@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <div class="social-media-description">
+            <span>Email：</span>
+            <span>kyul4852@gmail.com</span>
+          </div>
+        </div>
+        <div class="social-media">
+          <a class="social-media-link" href="https://github.com/yuting0909" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <div class="social-media-description">
+            <span>GitHub：</span>
+            <span>yuting0909</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#phone-nav-link").hide()
+      $(".nav-icon").click(function () {
+        $("#phone-nav-link").slideToggle(300);
+      });
+    });
+  </script>
+</body>
+
+</html>
